@@ -1,0 +1,247 @@
+
+*{
+  margin-top: 0px;
+  padding: 0px;
+}
+/* --------------------------Menu Starts-------------------------- */
+.navbar{
+  padding: 22px 0px;
+  border-bottom: none !important;
+  border-radius: 0% !important;
+}
+.navbar-brand img[src="img/brand.jpg"] {
+  width: 99px;
+}
+.navbar ul li a{
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 500;
+  font-weight: bold;
+  transition: all 0.5s ease-in ;
+}
+.navbar ul li a:hover{
+  color: deepskyblue !important;
+}
+.navbar-toggle{
+  border: 1px solid white !important;
+}
+.navbar-toggle:hover{
+  background-color: deepskyblue !important;
+}
+.navbar-inverse .navbar-collapse{
+  background-color: transparent !important;
+}
+.navbar-inverse{
+  background-color: transparent !important;
+}
+/* --------------------------Menu ends-------------------------- */
+
+
+/* --------------------------Navigation Starts-------------------------- */
+.Location{
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+
+/* --------------------------Navigation Ends-------------------------- */
+
+
+
+/* --------------------------Slider section starts here!-------------------------- */
+.slider{
+  width: 100%;
+  height: 700px;
+  background-image: url(..//img/slider.jpg) ;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.slider-overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0,0.55);
+  position: relative;
+}
+.slider-content{
+  position: absolute;
+  top: 39%;
+  width: 100%;
+}
+.icons .fa{
+  font-size: 23PX;
+  margin: 4PX;
+  margin-left: 10PX;
+}
+.btn1{
+  padding: 10px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  border-bottom-left-radius: 15px ;
+  transition: all 0.5s ease-in;
+  margin-right: -6px;
+}
+.btn1:hover{
+  text-decoration: none;
+  color: white;
+  background-color: deepskyblue;
+  border-color:#4094e7;
+}
+.btn2{
+  padding: 10px 18px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  border: 2px solid white;
+  border-top-right-radius: 15px ;
+  transition: all 0.5s ease-in;
+ 
+}
+.btn2:hover{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 12, 12);
+  border-color:#9c3838;
+}
+.social-networks a.fa{
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 3px;
+  transition: all 0.5s ease-in;
+}
+.social-networks a.fa:hover{
+  text-decoration: none;
+  background-color: deepskyblue;
+  border-color: #4094e7;
+
+}
+  /* CSS for Typed.js sentences */
+  .typed-content {
+    font-size: 38px !important;
+    /* font-family: "Arial", sans-serif !important; */
+    text-align: center !important;
+    margin-top: 10px !important;
+    color: #ffffff !important; /* Text color */
+    text-transform: uppercase;
+  }
+
+  /* Styling for individual sentences */
+  .typed-sentence {
+    display: inline !important;
+    margin-bottom: 10px !important;
+
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+/* --------------------------slider Ends-------------------------- */
+
+/* --------------------------services style start-------------------------- */
+/* Adding styles to the service wrap */
+/* Adding styles to the service wrap */
+.service-wrap {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 25px 35px;
+  position: relative;
+
+  transition: all 0.2s ease-out ; /* Increased transition duration to 1 second */
+  z-index: 9;
+  margin-top: 20px;
+}
+
+/* Adding hover effect for the service wrap */
+.service-wrap:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Increase box shadow on hover */
+  background-color: rgb(0, 0, 0); /* Change background color on hover */
+  color: #ffffff;
+}
+/* Pop-out circle emerging from the upper left on hover */
+.service-wrap:hover::before {
+  top: -40px; /* Adjust positioning */
+  left: -40px; /* Adjust positioning */
+  opacity: 1;
+}
+
+/* Pop-out circle emerging from the lower right on hover */
+.service-wrap:hover::after {
+  bottom: -40px; /* Adjust positioning */
+  right: -40px; /* Adjust positioning */
+  opacity: 1;
+}
+/* --------------------------slider style end-------------------------- */
+/* --------------------------Work style-------------------------- */
+/* Remove spacing between images within .row.no-gutters */
+/* Make the CSS selector more specific */
+/* Remove horizontal space between images within .work */
+.work .container .row [class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-wrapper{
+  overflow: hidden;
+}
+.img-wrapper img{
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+.img-wrapper img:hover{
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------Work style end-------------------------- */
